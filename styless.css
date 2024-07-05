@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.cv-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #686868;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header p {
+    margin: 5px 0 0;
+    font-style: italic;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style-type: disc;
+    margin: 0;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.job h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.job p {
+    margin: 5px 0 10px;
+    font-style: italic;
+}
+
+.skills ul {
+    columns: 2;
+}
+
+@media print {
+    body {
+        background: #fff;
+        color: #000;
+    }
+    
+    .cv-container {
+        box-shadow: none;
+        max-width: 100%;
+    }
+}
